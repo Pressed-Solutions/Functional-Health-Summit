@@ -22,24 +22,20 @@ body {
 .ch-header {
   height: 200px;
   width: 100%;
-  background: #79c7e4;
+  background: white;
 }
 
 .ch-header > div {
-  width: 1020px;
-  height: 200px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
 }
 
-img#logo {
-  max-height: 100px;
-}
-
 #logo {
-  position: absolute;
-  top: 30px;
-  margin: 0;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  height: 175px;
 }
 
 #logo a {
@@ -50,9 +46,7 @@ img#logo {
 
 /* START USER NAV */
 #ch-user-nav {
-  position: absolute;
-  top: 30px;
-  right: 0px;
+  display: none;
 }
 
 #ch-user-nav ul {
@@ -127,16 +121,17 @@ img#logo {
 
 /* START MAIN NAVIGATION */
 .ch-header .ch-main-nav {
-  position: absolute;
-  bottom: 0;
+  position: relative;
   width: 100%;
+  background: #18506D;
 }
 
 .ch-header .ch-main-nav ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   position: relative;
+  width: 1020px;
 }
 
 .ch-header .ch-main-nav > ul > li {
@@ -144,7 +139,7 @@ img#logo {
   background: #ffffff;
   border-right: 1px solid rgba(115, 115, 115, 0.1);
   position: relative;
-  float: left;
+  display: inline-block;
 }
 
 .ch-header .ch-main-nav > ul > li:hover {
