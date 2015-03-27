@@ -186,12 +186,8 @@ body {
   display: block;
 }
 
-.ch-header .ch-main-nav > ul > li:hover {
-  background: #acc97a;
-}
-
 .ch-header .ch-main-nav li:hover > a {
-  color: #ffffff;
+  color: #ffee00;
 }
 
 /* SUB-NAV ITEMS */
