@@ -139,13 +139,8 @@ body {
 
 .ch-header .ch-main-nav > ul > li {
   height: 50px;
-  border-right: 1px solid rgba(115, 115, 115, 0.1);
   position: relative;
   display: inline-block;
-}
-
-.ch-header .ch-main-nav > ul > li:hover {
-  border-right: 1px solid #acc97a;
 }
 
 .ch-main-nav li.parent>a::after{
@@ -165,11 +160,6 @@ body {
 
 .ch-header .ch-main-nav li:first-child {
   border-top-left-radius: 3px;
-}
-
-.ch-header .ch-main-nav li:last-child {
-  border-right: none;
-  border-top-right-radius: 3px;
 }
 
 .ch-header .ch-main-nav > ul > li > a {
@@ -214,7 +204,6 @@ body {
 }
 
 .ch-header .ch-main-nav li li {
-  border-right: none;
   border-bottom: 1px solid #F1F4F5;
   min-height: 40px;
   height: auto;
