@@ -299,6 +299,8 @@ body {
 
 /* FOOTER SECTION */
 .ch-footer {
+  color: white;
+  font-weight: 500;
   min-height: 200px;
   text-align: center;
   padding-top: 50px;
