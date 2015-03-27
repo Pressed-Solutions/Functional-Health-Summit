@@ -20,7 +20,6 @@ body {
 }
 
 .ch-header {
-  height: 200px;
   width: 100%;
   background: white;
 }
@@ -282,11 +281,19 @@ body {
 }
 
 .ch-side-content {
-  background-color: #e1e9ec;
   width: 305px;
-  padding: 30px;
+  padding: 90px 30px 30px;
   display: table-cell;
   vertical-align: top;
+}
+
+.ch-side-content h1 {
+  margin: 0;
+}
+
+.ch-side-content h1 + p {
+  margin-top: 0;
+  margin-bottom: 2em;
 }
 /* END CONTENT */
 
